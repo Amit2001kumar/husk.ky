@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="table.css"> -->
+  <link rel="stylesheet" href="bootstrap.css">
+
+  <title>Husk</title>
+
+</head>
+
+<style>
+  /* NAV CSS */
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: 500;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    list-style: none;
+    background-color: #fff;
+
+  }
+
+  .nav ul {
+    position: fixed;
+    position: relative;
+    text-align: center;
+    align-items: center;
+  }
+
+  .nav ul li {
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+    justify-self: center;
+  }
+
+  .nav li a {
+    padding: 30px 30px;
+    text-decoration: none;
+    color: #000;
+
+  }
+
+  .nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  /* .nav{
+  list-style: none;
+  background-color: #fff;
+ 
+ 
+
+}
+  .nav ul {
+   overflow: auto;
+   position: relative;
+   text-align: center;
+   align-items: center;
+  }
+
+  .nav li {
+    float: left;
+    list-style: none;
+    margin: 15px 15px;
+    justify-self: center;
+    display: inline-block;
+   
+
+  }
+
+  .nav a {
+
+    text-decoration: none;
+    color: black;
+    width: 115px;
+    display: block;
+    
+    padding: 30px 20px;
+    font-size: 20px;
+
+  }
+
+  .nav a:hover {
+    background: #000;
+    transition: 0.4s;
+    padding: 20px;
+    color: #ccc;
+  } */
+
+  .head {
+    list-style: none;
+    background: #656666;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0;
+    color: white;
+  }
+
+  /* LOG CSS */
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 5px 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 5px 8px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+
+  span.psw {
+    float: left;
+    padding-top: 16px;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+
+
+  }
+
+  .main {
+    background-color: #6ea3ab;
+    height: 600px;
+  }
+
+  .text {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .second {
+    list-style: none;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .img {
+    text-align: center;
+    padding-top: 300px;
+  }
+</style>
+</head>
+
+<body>
+  <!-- NAV -->
+  <div class="nav justify-content-center">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contant Us</a></li>
+    </ul>
+  </div>
+
+  <!-- <nav>
+    <div style="padding: 15px;">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+  <div class="main">
+    <div class="row col-md-12">
+      <div class="row col-md-6 img">
+        <img src="husk-header.png" height="80" width="50">
+      </div>
+      <div class="card row col-md-4 login" style="margin-left: 200px; margin-top: 100px; width: 300px; height: 450px;">
+
+        <h2>Login Form</h2>
+
+
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" name="psw" required>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+          <button type="submit">sing Up</button>
+
+
+
+          <center>
+
+            <span class="Register">Forgot Don't have an account -<a href="#">Register?</a></span>
+
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="head justify-content-center">
+
+    <h3>We help our clients take a strategic approach to real estate.</h3>
+
+  </div>
+  <div class="text "><br><br><br><br>
+    <h2>WHAT WE DO</h2><br>
+    <h2>Property Development Consulting</h2><br><br>
+    <p>Providing a wealth of resources from established local networks, specialised knowledge, experience, a growing
+      database of over 300 active local real-estate investors and capacity to help owners and investors manage every
+      phase of the development process.</p>
+  </div>
+  <div class="second justify-content-center">
+    <ul>
+      <li><a href="#">Project Conception</a></li>
+      <li><a href="#">Pre-Development</a></li>
+      <li><a href="#">Construction</a></li>
+      <li><a href="#">Closeout</a></li>
+      <li><a href="#">Asset Management</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
